@@ -23,8 +23,17 @@ const assertArraysEqual = function(arr1, arr2) {
 const middle = function(arr) {
   let midArr = [];
   let midPoint = Math.floor(arr.length / 2);
-  arr.length < 3 ? midArr : 
-  arr.length % 2 === 0 ? midArr.push(arr[midPoint - 1], arr[midPoint]) : midArr.push(arr[midPoint]);
+  
+  if (arr.length < 3) {
+    return midArr;
+  }
+  
+  if (arr.length % 2 === 0 ) {
+    midArr.push(arr[midPoint - 1], arr[midPoint])
+  } else {
+    midArr.push(arr[midPoint])
+  }
+
   return midArr;
 };
 
