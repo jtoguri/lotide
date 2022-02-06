@@ -1,4 +1,5 @@
-// FUNCTION IMPLEMENTATION
+// The assertEqual function takes in two values to compare and prints out a message to confirming if they match or not.
+
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -8,8 +9,4 @@ const assertEqual = function(actual, expected) {
   return false;
 };
 
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("fooo", "fooo");
-assertEqual(35, 35.1);
+module.exports = assertEqual;
