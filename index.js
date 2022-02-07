@@ -13,16 +13,16 @@ const map = require('./map');
 const without = require('./without');
 
 module.exports = {
-  head:            head,
-  tail:            tail,
-  middle:          middle,
-  findKey:         findKey,
-  findKeyByValue:  findKeyByValue,
-  flatten:         flatten,
-  countLetters:    countLetters,
-  countOnly:       countOnly,
-  letterPositions: letterPositions,
-  takeUntil:       takeUntil,
-  map:             map,
-  without:         without
+  head,
+  tail,
+  middle,
+  findKey,
+  findKeyByValue,
+  flatten,
+  countLetters,
+  countOnly,
+  letterPositions,
+  takeUntil,
+  map,
+  without
 };
