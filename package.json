@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@jtoguri/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of the Lodash library.",
+  "main": "head.js",
   "directories": {
     "test": "test"
   },
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/jtoguri/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joshua Toguri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jtoguri/lotide/issues"
